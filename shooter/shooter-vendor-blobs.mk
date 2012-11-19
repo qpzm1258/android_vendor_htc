@@ -65,7 +65,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/libC2D2.so:/system/lib/libC2D2.so \
     vendor/htc/shooter/proprietary/libc2d2_z180.so:/system/lib/libc2d2_z180.so \
     vendor/htc/shooter/proprietary/libcamerapp.so:/system/lib/libcamerapp.so \
-    vendor/htc/shooter/proprietary/libcameraservice.so:/system/lib/libcameraservice.so \
     vendor/htc/shooter/proprietary/libcameraSP.so:/system/lib/libcameraSP.so \
     vendor/htc/shooter/proprietary/libcameraface.so:/system/lib/libcameraface.so \
     vendor/htc/shooter/proprietary/libdll.so:/system/lib/libdll.so \
