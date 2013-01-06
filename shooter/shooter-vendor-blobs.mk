@@ -19,8 +19,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/camera.default.so:obj/lib/hw/camera.default.so \
     vendor/htc/shooter/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so \
     vendor/htc/shooter/proprietary/libacdbloader.so:obj/lib/libacdbloader.so \
-    vendor/htc/shooter/proprietary/libacdbmapper.so:obj/lib/libacdbmapper.so \
-    vendor/htc/shooter/proprietary/libv8.so:obj/lib/libv8.so
+    vendor/htc/shooter/proprietary/libacdbmapper.so:obj/lib/libacdbmapper.so
     
 ## WiMAX blobs
 PRODUCT_COPY_FILES += \
@@ -105,7 +104,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/libqdp.so:/system/lib/libqdp.so \
     vendor/htc/shooter/proprietary/libqmiservices.so:/system/lib/libqmiservices.so \
     vendor/htc/shooter/proprietary/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so \
-    vendor/htc/shooter/proprietary/libv8.so:system/lib/libv8.so \
     vendor/htc/shooter/proprietary/camera.default.so:/system/lib/hw/camera.default.so \
     vendor/htc/shooter/proprietary/sensors.shooter.so:/system/lib/hw/sensors.shooter.so \
     vendor/htc/shooter/proprietary/logcat2:/system/bin/logcat2 \
