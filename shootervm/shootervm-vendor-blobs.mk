@@ -48,7 +48,6 @@ PRODUCT_COPY_FILES += \
 # All the blobs necessary for shootervm
 PRODUCT_COPY_FILES += \
     vendor/htc/shootervm/proprietary/charging:/system/bin/charging \
-    vendor/htc/shootervm/proprietary/htc_ebdlogd:/system/bin/htc_ebdlogd \
     vendor/htc/shootervm/proprietary/htcbatt:/system/bin/htcbatt \
     vendor/htc/shootervm/proprietary/load-modem.sh:/system/bin/load-modem.sh \
     vendor/htc/shootervm/proprietary/mpdecision:/system/bin/mpdecision \
