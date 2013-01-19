@@ -19,8 +19,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/camera.default.so:obj/lib/hw/camera.default.so \
     vendor/htc/shooter/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so \
     vendor/htc/shooter/proprietary/libacdbloader.so:obj/lib/libacdbloader.so \
-    vendor/htc/shooter/proprietary/libacdbmapper.so:obj/lib/libacdbmapper.so \
-    vendor/htc/shooter/proprietary/libv8.so:obj/lib/libv8.so
+    vendor/htc/shooter/proprietary/libacdbmapper.so:obj/lib/libacdbmapper.so
     
 ## WiMAX blobs
 PRODUCT_COPY_FILES += \
@@ -49,7 +48,6 @@ PRODUCT_COPY_FILES += \
 # All the blobs necessary for shooter
 PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/charging:/system/bin/charging \
-    vendor/htc/shooter/proprietary/htc_ebdlogd:/system/bin/htc_ebdlogd \
     vendor/htc/shooter/proprietary/htcbatt:/system/bin/htcbatt \
     vendor/htc/shooter/proprietary/load-modem.sh:/system/bin/load-modem.sh \
     vendor/htc/shooter/proprietary/mpdecision:/system/bin/mpdecision \
@@ -90,14 +88,12 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/libmmjps.so:/system/lib/libmmjps.so \
     vendor/htc/shooter/proprietary/libmmjpeg2.so:/system/lib/libmmjpeg2.so \
     vendor/htc/shooter/proprietary/libmm-color-convertor.so:/system/lib/libmm-color-convertor.so \
-    vendor/htc/shooter/proprietary/libmm-omxcore.so:/system/lib/libmm-omxcore.so \
     vendor/htc/shooter/proprietary/libmpl.so:/system/lib/libmpl.so \
     vendor/htc/shooter/proprietary/libmllite.so:/system/lib/libmllite.so \
     vendor/htc/shooter/proprietary/libmlplatform.so:/system/lib/libmlplatform.so \
     vendor/htc/shooter/proprietary/libnetmgr.so:/system/lib/libnetmgr.so \
     vendor/htc/shooter/proprietary/liboemcamera.so:/system/lib/liboemcamera.so \
     vendor/htc/shooter/proprietary/libOlaEngine.so:/system/lib/libOlaEngine.so \
-    vendor/htc/shooter/proprietary/libOpenMAXAL.so:/system/lib/libOpenMAXAL.so \
     vendor/htc/shooter/proprietary/libOpenVG.so:/system/lib/libOpenVG.so \
     vendor/htc/shooter/proprietary/libposteffect.so:/system/lib/libposteffect.so \
     vendor/htc/shooter/proprietary/libqc-opt.so:/system/lib/libqc-opt.so \
@@ -105,7 +101,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/libqdp.so:/system/lib/libqdp.so \
     vendor/htc/shooter/proprietary/libqmiservices.so:/system/lib/libqmiservices.so \
     vendor/htc/shooter/proprietary/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so \
-    vendor/htc/shooter/proprietary/libv8.so:system/lib/libv8.so \
     vendor/htc/shooter/proprietary/camera.default.so:/system/lib/hw/camera.default.so \
     vendor/htc/shooter/proprietary/sensors.shooter.so:/system/lib/hw/sensors.shooter.so \
     vendor/htc/shooter/proprietary/logcat2:/system/bin/logcat2 \
