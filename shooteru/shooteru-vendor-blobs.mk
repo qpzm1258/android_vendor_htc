@@ -31,12 +31,10 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooteru/proprietary/ipd:system/bin/ipd \
     vendor/htc/shooteru/proprietary/load-modem.sh:system/bin/load-modem.sh \
     vendor/htc/shooteru/proprietary/logcat2:system/bin/logcat2 \
-    vendor/htc/shooteru/proprietary/mpdecision:system/bin/mpdecision \
     vendor/htc/shooteru/proprietary/netmgrd:system/bin/netmgrd \
     vendor/htc/shooteru/proprietary/qmuxd:system/bin/qmuxd \
     vendor/htc/shooteru/proprietary/rmt_storage:system/bin/rmt_storage \
     vendor/htc/shooteru/proprietary/snd3254:system/bin/snd3254 \
-    vendor/htc/shooteru/proprietary/thermald:system/bin/thermald \
     vendor/htc/shooteru/proprietary/wireless_modem:system/bin/wireless_modem \
     vendor/htc/shooteru/proprietary/camera.default.so:system/lib/hw/camera.default.so \
     vendor/htc/shooteru/proprietary/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
