@@ -89,7 +89,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooteru/proprietary/libv8.so:system/lib/libv8.so \
     vendor/htc/shooteru/proprietary/libmpl.so:system/lib/libmpl.so \
     vendor/htc/shooteru/proprietary/libmllite.so:system/lib/libmllite.so \
-    vendor/htc/shooter/proprietary/sensors.shooteru.so:/system/lib/hw/sensors.shooteru.so \
+    vendor/htc/shooteru/proprietary/sensors.shooteru.so:/system/lib/hw/sensors.shooteru.so \
     vendor/htc/shooteru/proprietary/libmlplatform.so:system/lib/libmlplatform.so
  
 # All the blobs necessary for DRM
