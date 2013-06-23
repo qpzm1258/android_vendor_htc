@@ -65,7 +65,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooteru/proprietary/libqdp.so:system/lib/libqdp.so \
     vendor/htc/shooteru/proprietary/libqmi.so:system/lib/libqmi.so \
     vendor/htc/shooteru/proprietary/libhtc_ril.so:system/lib/libhtc_ril.so \
-    vendor/htc/shooteru/proprietary/camera.default.so:system/lib/hw/camera.default.so \
+    vendor/htc/shooteru/proprietary/camera.default.so:system/lib/hw/vendor-camera.default.so \
     vendor/htc/shooteru/proprietary/libcamerapp.so:system/lib/libcamerapp.so \
     vendor/htc/shooteru/proprietary/libcameraLN.so:system/lib/libcameraLN.so \
     vendor/htc/shooteru/proprietary/libcameraSP.so:system/lib/libcameraSP.so \
