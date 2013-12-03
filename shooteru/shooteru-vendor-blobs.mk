@@ -48,6 +48,9 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooteru/proprietary/libOpenVG.so:system/lib/libOpenVG.so \
     vendor/htc/shooteru/proprietary/libC2D2.so:system/lib/libC2D2.so \
     vendor/htc/shooteru/proprietary/libc2d2_z180.so:/system/lib/libc2d2_z180.so \
+    vendor/htc/shooteru/proprietary/libplayback_adreno200.so:system/lib/egl/libplayback_adreno200.so \
+    vendor/htc/shooteru/proprietary/libOpenCL.so:system/lib/libOpenCL.so \
+    vendor/htc/shooteru/proprietary/libllvm-arm.so:system/lib/libllvm-arm.so \
     vendor/htc/shooteru/proprietary/libsc-a2xx.so:system/lib/libsc-a2xx.so \
     vendor/htc/shooteru/proprietary/libhtc_acoustic.so:system/lib/libhtc_acoustic.so \
     vendor/htc/shooteru/proprietary/libaudioalsa.so:system/lib/libaudioalsa.so \
