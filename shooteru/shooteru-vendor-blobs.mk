@@ -16,7 +16,7 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
-    vendor/htc/shooteru/proprietary/camera.default.so:obj/lib/hw/vendor-camera.default.so \
+    vendor/htc/shooteru/proprietary/camera.vendor.msm8660.so:obj/lib/hw/camera.vendor.msm8660.so \
     vendor/htc/shooteru/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so \
     vendor/htc/shooteru/proprietary/libacdbloader.so:obj/lib/libacdbloader.so \
     vendor/htc/shooteru/proprietary/libacdbmapper.so:obj/lib/libacdbmapper.so \
@@ -68,7 +68,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooteru/proprietary/libqdp.so:system/lib/libqdp.so \
     vendor/htc/shooteru/proprietary/libqmi.so:system/lib/libqmi.so \
     vendor/htc/shooteru/proprietary/libhtc_ril.so:system/lib/libhtc_ril.so \
-    vendor/htc/shooteru/proprietary/camera.default.so:system/lib/hw/vendor-camera.default.so \
+    vendor/htc/shooteru/proprietary/camera.vendor.msm8660.so:system/lib/hw/camera.vendor.msm8660.so \
     vendor/htc/shooteru/proprietary/libcamerapp.so:system/lib/libcamerapp.so \
     vendor/htc/shooteru/proprietary/libcameraLN.so:system/lib/libcameraLN.so \
     vendor/htc/shooteru/proprietary/libcameraSP.so:system/lib/libcameraSP.so \
