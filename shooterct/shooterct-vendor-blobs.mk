@@ -23,6 +23,7 @@ PRODUCT_COPY_FILES += \
 
 # All the blobs necessary for shooterct
 PRODUCT_COPY_FILES += \
+    vendor/htc/shooterct/proprietary/bin/cw_dialer:system/bin/cw_dialer \
     vendor/htc/shooterct/proprietary/bin/ipd:system/bin/ipd \
     vendor/htc/shooterct/proprietary/bin/3D_calibration:system/bin/3D_calibration \
     vendor/htc/shooterct/proprietary/bin/3D_calibration_main:system/bin/3D_calibration_main \
@@ -86,4 +87,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooterct/proprietary/lib/libmpl.so:system/lib/libmpl.so \
     vendor/htc/shooterct/proprietary/lib/libmllite.so:system/lib/libmllite.so \
     vendor/htc/shooterct/proprietary/lib/hw/sensors.shooterct.so:/system/lib/hw/sensors.shooterct.so \
-    vendor/htc/shooterct/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so
+    vendor/htc/shooterct/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
+    vendor/htc/shooterct/proprietary/lib/libcw_ril.so:system/lib/libcw_ril.so \
+    vendor/htc/shooterct/proprietary/lib/libhtc_ril_switch.so:system/lib/libhtc_ril_switch.so \
+	
