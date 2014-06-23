@@ -34,6 +34,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooterct/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/htc/shooterct/proprietary/bin/snd3254:system/bin/snd3254 \
     vendor/htc/shooterct/proprietary/bin/wireless_modem:system/bin/wireless_modem \
+    vendor/htc/shooter/proprietary/system/bin/dmagent:/system/bin/dmagent \
     vendor/htc/shooterct/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
     vendor/htc/shooterct/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
     vendor/htc/shooterct/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
@@ -90,4 +91,5 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooterct/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
     vendor/htc/shooterct/proprietary/lib/libcw_ril.so:system/lib/libcw_ril.so \
     vendor/htc/shooterct/proprietary/lib/libhtc_ril_switch.so:system/lib/libhtc_ril_switch.so \
+	vendor/htc/shooterct/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
 	
